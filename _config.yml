@@ -14,11 +14,11 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
-# baseurl:           
+url:              https://jprado1.github.io
+baseurl: /trip-to-satellite/           
 
 # Gems used
-gems:
+plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-paginate
