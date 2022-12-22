@@ -25,7 +25,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
+remote_theme: hmfaysal/hmfaysal-omega-theme@gh-pages
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
 jekyll-archives:
