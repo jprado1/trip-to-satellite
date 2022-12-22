@@ -14,33 +14,20 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              https://jprado1.github.io
-baseurl: /trip-to-satellite/           
+
+# baseurl:           
 
 # Gems used
-plugins:
+gems:
   - jekyll-feed
-  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
-remote_theme: hmfaysal/hmfaysal-omega-theme@gh-pages
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    # year: '/:year/'
-    # month: '/:year/:month/'
-    # day: '/:year/:month/:day/'
-    tag: '/archive/tag/:name/'
-    category: '/archive/category/:name/'
+
 
 # Owner/author information
 author:
